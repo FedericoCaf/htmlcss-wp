@@ -44,7 +44,7 @@ ul{
 ul li {
   display: inline-block;
   padding-right: 10px;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 ul li a{
@@ -59,7 +59,7 @@ a:hover {
 }
 
 a:active{
-  color:mediumblue;
+  color:red;
 }
 
 
@@ -93,13 +93,12 @@ a:active{
 
 footer{
   height: 50px;
-  background-color: #8801FE;
 }
 
-.central-title{
+/* .central-title{
   min-height: 70px;
  
-}
+} */
 
 .left-side, .main-content, .right-side{
   float:left;
@@ -113,13 +112,13 @@ footer{
 
 .right-side{
   width:19%;
-  height: 400px;
+  height: 400x;
   margin:10px 0;
 }
 
 .main-content{
   width:60%;
-  height:400px;
+  height:400SSpx;
   margin: 10px 1%;
 }
 
@@ -131,17 +130,16 @@ h1{
   background-image: url(../img/img-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50%;
+  height: 200px;
   border-radius: 10px;
 }
-
 
 .img-main{
   background-image: url(../img/banner-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 50%;
+  height: 200px;
   border-radius: 10px;
 }
 
@@ -149,7 +147,7 @@ h1{
   background-image: url(../img/img-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50%;
+  height: 200px;
   border-radius: 10px;
 }
 
@@ -158,3 +156,11 @@ h1{
   font-size: 13px;
 }
 
+.footer-message span{
+  color:red;
+}
+
+.footer-message{
+  text-align: center;
+  font-size: 13px;
+}
