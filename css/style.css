@@ -15,7 +15,7 @@ body{
 }
 
 .global-container{
- width:80%;
+ width:60%;
  margin: 20px auto;
  }
 
@@ -63,15 +63,31 @@ a:active{
 }
 
 
-.top-container{
-  min-height: 300px;
-  background-color:#E1D67A;
+.jumbotron{
   margin: 20px 0;
+  border-radius: 10px;
+  height: 450px;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+
+.back-opac{
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  border-radius: 10px;
+}
+
+.jumbo-content{
+  width: 60%;
+  padding-left: 50px;
+  color:white;
 }
 
 .central-container{
   min-height: 400px;
-  background-color:#0087FF;
   margin-bottom: 10px;
 }
 
@@ -82,23 +98,63 @@ footer{
 
 .central-title{
   min-height: 70px;
-  background-color:#ABCFE7;
+ 
 }
 
-.aside, .main-content{
+.left-side, .main-content, .right-side{
   float:left;
 }
 
-.aside{
+.left-side{
   width:19%;
-  min-height: 400px;
-  background-color: #ABCFE7;
+  height: 400px;
+  margin:10px 0;
+}
+
+.right-side{
+  width:19%;
+  height: 400px;
   margin:10px 0;
 }
 
 .main-content{
   width:60%;
-  min-height: 400px;
-  background-color: #ABCFE7;
+  height:400px;
   margin: 10px 1%;
 }
+
+h1{
+  font-weight: bold; 
+}
+
+.img-left{
+  background-image: url(../img/img-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  border-radius: 10px;
+}
+
+
+.img-main{
+  background-image: url(../img/banner-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.img-right{
+  background-image: url(../img/img-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.right-side p, .left-side p, .main-content p, h5{
+  padding: 7px;
+  font-size: 13px;
+}
+
