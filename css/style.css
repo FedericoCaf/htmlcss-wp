@@ -91,7 +91,6 @@ a:active{
 /* container del titolo */
 
 .central-container{
-  min-height: 400px;
   margin-bottom: 10px;
 }
 
@@ -154,9 +153,7 @@ h1{
   font-size: 13px;
 }
 
-footer{
-  height: 50px;
-}
+
 
 .footer-message span{
   color:red;
